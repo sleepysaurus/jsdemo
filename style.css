@@ -1,0 +1,27 @@
+body {
+	font-family: sans-serif;
+	font-size: 12pt;
+	color: black;
+}
+
+
+#container {
+	width: 1000px;
+	margin: auto;
+}
+
+#logo {
+	font-family: 'Patua One', sans-serif;
+	font-size: 50pt;
+	color: #00303C;
+}
+
+a {
+	color: green;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #94003A;
+}
+
