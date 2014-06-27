@@ -1,23 +1,57 @@
 body {
 	font-family: sans-serif;
 	font-size: 12pt;
+	margin: 0px;
 	color: black;
 	background: url("./css/img/triangular.png");
 }
 
+h1 {
+	margin: 0px;
+	padding: 10px;
+}
 
 #container {
 	width: 1000px;
 	margin: auto;
 	padding: 0px 30px;
 	background-color: #EBEBEB;
+	border: 10px #D4D4D4 solid;
+}
+
+/**********NAVBAR**********/
+
+#nav {
+	background-color: #5BA8BF;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logo_para {
+	color: #333333;
+	margin: 0px;
 }
 
 #logo {
 	font-family: 'Patua One', sans-serif;
 	font-size: 50pt;
-	color: #00303C;
+	color: #333333;
+	margin: 0px;
+	padding: 0px;
 }
+
+ul#navbar  {
+	margin: 0px;
+	list-style: none;
+	float: right;
+}
+
+ul#navbar li {
+	float: left;
+	margin-right: 40px;
+}
+
+
 
 a {
 	color: green;

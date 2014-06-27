@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("a").click(function(event) {
+	$("#jQuery p a").click(function(event) {
 		alert("It's a link with an alert! Cool!");
 	})
 
